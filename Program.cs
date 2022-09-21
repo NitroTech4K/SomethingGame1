@@ -54,11 +54,17 @@ namespace SomethingGame1
             int enemiehitplayer;
             enemiehitplayer = -25;
 
+
+
+            //Player Kudos Variable List
+
             int playerhitenemie;
             playerhitenemie = 10;
 
             int playerkillenemie;
             playerkillenemie = 25;
+
+
 
 
 
