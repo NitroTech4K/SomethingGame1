@@ -10,8 +10,10 @@ namespace SomethingGame1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("========SomethingGame========");
 
+            //Player Variables list.
+
+            
             int Lives;
             Lives = 3;
 
@@ -22,20 +24,71 @@ namespace SomethingGame1
             Score = 0;
 
             float ScoreMultipler;
-            ScoreMultipler = 2.5f;
+            ScoreMultipler = 1.0f;
 
             int shield;
             shield = 100;
 
 
+
+            //Item Variables List.
+
+
+            int healthstim;
+            healthstim = 25;
+
+            int shieldpack;
+            shieldpack = 25;
+
+            int shieldkit;
+            shieldkit = 100;
+
+            int medkit;
+            medkit = 100;
+
+
+
+            //Enemie Variables List
+
+
+            int enemiehitplayer;
+            enemiehitplayer = -25;
+
+            int playerhitenemie;
+            playerhitenemie = 10;
+
+            int playerkillenemie;
+            playerkillenemie = 25;
+
+
+
+
+
+
+            
+
+
+
+
+
+
+
          
+            
+
+            //Genaric HUD
+
+            Console.WriteLine("                      ========SomethingGame========");
+
+            Console.WriteLine("");
+            Console.WriteLine("");
 
 
+            Console.WriteLine("Lives: " + Lives + "   Health: " + Health +  "                             Score: " + Score + "    Score Multiplier: " + ScoreMultipler);
 
+            Console.WriteLine("");
 
-
-
-
+            Console.WriteLine("Shield: " + shield);
 
 
 
@@ -43,6 +96,64 @@ namespace SomethingGame1
 
 
             Console.ReadKey(true);
+
+            shield = 50;
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+
+
+            Console.WriteLine("Lives: " + Lives + "   Health: " + Health + "                             Score: " + Score + "    Score Multiplier: " + ScoreMultipler);
+
+            Console.WriteLine("");
+
+            Console.WriteLine("Shield: " + shield);
+
+
+
+
+
+
+            Console.ReadKey(true);
+            Console.WriteLine("                      ========SomethingGame========");
+
+            Console.WriteLine("                      ========SomethingGame========");
+
+            Console.WriteLine("");
+            Console.WriteLine("");
+
+
+            Console.WriteLine("Lives: " + Lives + "   Health: " + Health + "                             Score: " + Score + "    Score Multiplier: " + ScoreMultipler);
+
+            Console.WriteLine("");
+
+            Console.WriteLine("Shield: " + shield);
+
+
+
+
+
+
+            Console.ReadKey(true);
+
+            Console.WriteLine("");
+            Console.WriteLine("");
+
+
+            Console.WriteLine("Lives: " + Lives + "   Health: " + Health + "                             Score: " + Score + "    Score Multiplier: " + ScoreMultipler);
+
+            Console.WriteLine("");
+
+            Console.WriteLine("Shield: " + shield);
+
+
+
+
+
+
+            Console.ReadKey(true);
+
         }
     }
 }
