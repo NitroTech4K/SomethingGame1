@@ -71,14 +71,6 @@ namespace SomethingGame1
 
 
 
-            
-
-
-
-
-
-
-
          
             
 
@@ -103,7 +95,7 @@ namespace SomethingGame1
 
             Console.ReadKey(true);
 
-            shield = 50;
+            shield = shield + enemiehitplayer;
             Console.WriteLine("");
             Console.WriteLine("");
             Console.WriteLine("");
@@ -115,45 +107,6 @@ namespace SomethingGame1
             Console.WriteLine("");
 
             Console.WriteLine("Shield: " + shield);
-
-
-
-
-
-
-            Console.ReadKey(true);
-            Console.WriteLine("                      ========SomethingGame========");
-
-            Console.WriteLine("                      ========SomethingGame========");
-
-            Console.WriteLine("");
-            Console.WriteLine("");
-
-
-            Console.WriteLine("Lives: " + Lives + "   Health: " + Health + "                             Score: " + Score + "    Score Multiplier: " + ScoreMultipler);
-
-            Console.WriteLine("");
-
-            Console.WriteLine("Shield: " + shield);
-
-
-
-
-
-
-            Console.ReadKey(true);
-
-            Console.WriteLine("");
-            Console.WriteLine("");
-
-
-            Console.WriteLine("Lives: " + Lives + "   Health: " + Health + "                             Score: " + Score + "    Score Multiplier: " + ScoreMultipler);
-
-            Console.WriteLine("");
-
-            Console.WriteLine("Shield: " + shield);
-
-
 
 
 
